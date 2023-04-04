@@ -1,0 +1,37 @@
+.searchHomeContainer {
+    width:100%;
+    margin-left:9rem;
+    display: relative;
+    justify-content: center;
+    margin-top:30px;
+  }
+  
+  .loader {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+  }
+  
+/*   .movies {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(400px, 1fr));
+    grid-gap: 130px;
+    padding: 50px;
+    width: 150px;
+    margin-top: 60px;
+  } */
+  
+.Pagetitle h1{
+    position:relative;
+    margin-top:24spx;
+    margin-bottom:0px;
+}
+  @media screen and (max-width: 1090px) {
+    .movies {
+      grid-template-columns: 1fr;
+      width: 100%;
+    }
+  }

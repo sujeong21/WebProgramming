@@ -1,0 +1,128 @@
+
+/* Home Page Container */
+.homepage__container {
+  max-width: 480px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+/* ToDo App Input Box */
+.commentapp__inputbox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.commentapp__inputbox-inp {
+  flex: 1;
+  border: none;
+  border-bottom: 1px solid #f1f3f5;
+  padding: 10px;
+  height: 50px;
+  box-sizing: border-box;
+}
+.commentapp__inputbox-inp:focus {
+  outline: none;
+}
+.commentapp__inputbox-add-btn {
+  border: none;
+  border-radius: 0;
+  background-color: #d0ebff;
+  color: #1c7ed6;
+  height: 50px;
+  width: 50px;
+  font-weight: bold;
+}
+
+/* ToDo Item List */
+.commentapp__list {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.commentapp__list-tit {
+  font-weight: bold;
+  margin: 0;
+}
+.commentapp__list-ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+}
+
+/* ToDo Item */
+.commentapp__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  height: 36px;
+}
+.commentapp__item:last-child {
+  margin-bottom: 0;
+}
+.commentapp__item-checkbox {
+  margin-right: 10px;
+}
+.commentapp__item-edit-input {
+  flex: 1;
+  border:none;
+  border-bottom: 0px;
+  border-top:0px;
+  border-right:0px;
+  border-left:0px;
+  padding: 5px;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+.commentapp__item-edit-input:focus {
+  outline:none;
+}
+
+.commentapp__item-finishedit-input{
+  flex: 1;
+  border: none;
+  list-style:none;
+  padding: 5px;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+.commentapp__item-finishedit-input:focus,
+.commentapp__item-finishedit-input:active{
+  outline:none;
+  box-shadow:none;
+}
+
+
+.commentapp__item-ctx {
+  flex: 1;
+}
+.commentapp__item-ctx-checked {
+  font-style: italic;
+  text-decoration: line-through;
+  color: #868e96;
+}
+.commentapp__item-edit-btn,
+.commentapp__item-finishedit-btn,
+.commentapp__item-rechageedit-btn,
+.commentapp__item-delete-btn {
+  border: none;
+  border-radius: 0;
+  height: 36px;
+  width: 36px;
+  background-color: inherit;
+}
+.commentapp__item-edit-btn:hover,
+.commentapp__item-finishedit-btn:hover,
+.commentapp__item-rechageedit-btn:hover
+.commentapp__item-delete-btn:hover {
+  cursor: pointer;
+  background-color: #d0ebff;
+}
+
+.commentapp__item-edit-btn {
+  margin-right: 3px;
+}
